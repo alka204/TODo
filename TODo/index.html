@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOdo application</title>
+    <link rel="stylesheet" href ="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+    <div id="container" class="col-md-6">
+        <div class="controls">
+            <h1>My Awesome TODO</h1>
+            <div class="form-group">
+                <button class="btn btn-info" type='button' id ='reset'>Reset TODO</button>
+            </div>
+            <br>
+            <div class="form-group">
+                <input class="form-control" type="text" id="input" placeholder="Enter the item to add">
+                <button class="btn btn-primary" type='button' id='add'> Add TODO</button>
+            </div>
+
+            <p id="checkString"></p>
+            
+        </div>
+        <hr>
+        <div id="empty-warning">
+
+        </div>
+        <ul id="list">
+            
+        </ul>
+        <div class="form-group">
+            <button class="btn btn-danger" type='button' id='remove'> Remove selected from TODO</button>
+        </div>
+
+
+        
+        <p class="copyright">&copy; alka<p>
+
+
+
+
+    </div>
+    
+
+    
+
+    <script src=jquery.js></script>
+    <script src="todo.js"></script>
+</body>
+</html>
